@@ -201,7 +201,12 @@ ul li {
 
 .btn-black {
   color: #fff;
-  background-color: #000;
+  //background-color: #000;
+  background: #380514; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#380514, #6c1e36); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#380514, #6c1e36); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#380514, #6c1e36); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#380514, #6c1e36); /* Standard syntax */
 }
 .btn-black:hover, .btn-black:focus {
   color: #fff;
@@ -430,7 +435,12 @@ ul li {
  */
 .schedule-box {
   position: relative;
-  background-color: #000;
+  background: #380514; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#380514, #6c1e36); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#380514, #6c1e36); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#380514, #6c1e36); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#380514, #6c1e36); /* Standard syntax */
+  
   color: #fff;
   text-align: center;
   padding: 50px 0;
@@ -514,7 +524,12 @@ ul li {
 }
 .faq .panel-default > .panel-heading {
   color: #FFF;
-  background-color: #000000;
+  //background-color: #000000;
+  background: #380514; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#380514, #6c1e36); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#380514, #6c1e36); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#380514, #6c1e36); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#380514, #6c1e36); /* Standard syntax */
   border-color: #000;
   border-radius: 0;
   padding: 0;
